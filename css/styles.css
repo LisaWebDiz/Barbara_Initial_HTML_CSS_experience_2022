@@ -6,7 +6,7 @@ body {
     width: 100%;
     background-color: mistyrose;
     background-image: url(Picture3.jpeg);
-    background-size: auto;
+    background-size: 100%;
 }
 h1 {
     color: palevioletred;
