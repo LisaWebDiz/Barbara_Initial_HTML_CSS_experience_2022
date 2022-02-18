@@ -1,5 +1,11 @@
-h1 {
-    color: palevioletred;
-    text-align: right;
-    font-size: 50px;
+body {
+    font-family: 'Marck Script', cursive;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    width: 100%;
+    background-color: mistyrose;
+    background-image: url(Picture3.jpeg);
+    background-size: auto auto;
+    background-repeat: no-repeat;
 }
