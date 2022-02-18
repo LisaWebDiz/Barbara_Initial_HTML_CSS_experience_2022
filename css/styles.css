@@ -8,6 +8,7 @@ body {
     background-image: url(Picture3.jpeg);
     background-size: auto auto;
     background-repeat: no-repeat;
+    background-position: relative;
 }
 h1 {
     color: palevioletred;
