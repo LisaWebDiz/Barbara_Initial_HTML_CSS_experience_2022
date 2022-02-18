@@ -1,16 +1,17 @@
-h1{
-    color: deeppink;
-    font-weight: bold; 
-    font-size: 80px;
-    font-style: italic;
-    text-decoration: underline;
-}  
-body{
-    padding:0;
-    margin:0;
-}
-.wrapper{
+body {
+    font-family: 'Marck Script', cursive;
+    padding: 0;
+    margin: 0;
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(45deg, aqua, palegreen, lightpink, plum);
+    background-color: mistyrose;
+    background-image: url(Picture3.jpeg);
+    background-size: auto auto;
+    background-repeat: no-repeat;
+}
+h1{
+    color: palevioletred;
+    text-align: right;
+    font-size: 50px;
+    padding: 10px;
 }
