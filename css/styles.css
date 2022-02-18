@@ -6,7 +6,7 @@ body {
     width: 100%;
     background-color: mistyrose;
     background-image: url(Picture3.jpeg);
-    background-size: auto;
+    background-size: auto auto;
     background-repeat: no-repeat;
     background-position: center center;
 }
