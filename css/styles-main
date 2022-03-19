@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+}
+@media screen and (min-width: 800px) {
+    body {
+    flex-direction: column;
+    }
+}
+html, body {
+    height: 100vh;
+    font-family: 'Marck Script', cursive;
+}
+h1 {
+    text-align: center;
+    font-size: 70px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.maintitle {
+    top: 60px;
+    color: rgba(212, 230, 229, 0.1);
+    background: url(additional/1.gif);
+    repeat-x;
+    -webkit-background-clip: text;
+}
+.bg-video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+}
+.container {
+    position: relative;
+}
+.mountains {
+    height: 260px;
+    width: 100%
+    z-index: 2;
+    position: fixed;
+    background-repeat: repeat-x;
+    animation: mountains 60s linear infinite;
+    display: block;
+}
+@keyframes mountains {
+    0% {
+        transform: translateX(-2200px);
+}
+}
+.city {
+    height: 180px;
+    width: 100%
+    z-index: 3;
+    position: fixed;
+    background-repeat: repeat-x;
+    animation: city 30s linear infinite;
+    display: block;
+}
+@keyframes city {
+    0% {
+        transform: translateX(-2200px);
+}
+}
+.boyandgirl {
+    position: fixed;
+    height: 250px;
+    left: 30%;
+    bottom: 200px;
+    z-index: 4;
+    transform: translateX(-50%);
+    animation: boyandgirl 2s linear infinite;
+}
+@keyframes boyandgirl {
+    100% {
+        transform: translateY(-10px);}
+    50% {
+        transform: translateY(10px);}      
+    0% {
+        transform: translateY(-10px);}
+}
+.sea {
+    height: 200px;
+    width: 100%
+    z-index: 1;
+    position: fixed;
+    background-repeat: repeat-x;
+    animation: sea 60s linear infinite;
+    display: block;
+}
+@keyframes sea {
+    0% {
+        transform: translateX(-1000px);
+}
+}
