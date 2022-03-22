@@ -40,7 +40,7 @@ h1 {
     z-index: 2;
     position: fixed;
     background-repeat: repeat-x;
-    animation: mountains 80s linear infinite;
+    animation: mountains 60s linear infinite;
     display: block;
 }
 @keyframes mountains {
@@ -89,7 +89,7 @@ h1 {
     z-index: 1;
     position: fixed;
     background-repeat: repeat-x;
-    animation: sea 100s linear infinite;
+    animation: sea 90s linear infinite;
     display: block;
 }
 @keyframes sea {
