@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-}
+  }
 @media screen and (min-width: 800px) {
     body {
         flex-direction: column;
@@ -11,7 +11,7 @@ html, body {
     height: 100vh;
     font-family: 'Marck Script', cursive;
 }
-h1 { 
+h1 {  
     text-align: center;
     font-size: 70px;
     padding: 10px;
@@ -21,31 +21,31 @@ h1 {
 .maintitle {
     top: 60px;
     color: rgba(212, 230, 229, 0.1);
-    background: url(1.gif);
-    -webkit-background-clip: text;
+    background: url(img/gallery/gifka5.gif);
+    -webkit-background-clip: text;   
 }
-.bg-video {
+.sky-video {
     position: fixed;
     min-width: 100%;
     min-height: 100%;
 }
 .container {
-    position: relative;
+    position: relative;   
 }
 .mountains {
-    height: 260px;
+    height: 250px;
     right: 0;
     left: 0;
     bottom: 0;
     z-index: 2;
     position: fixed;
     background-repeat: repeat-x;
-    animation: mountains 60s linear infinite;
+    animation: mountains 80s linear infinite;
     display: block;
 }
 @keyframes mountains {
     0% {
-        transform: translateX(-2200px);    
+        transform: translateX(-1600px);    
 }
 }
 .city {
@@ -66,34 +66,34 @@ h1 {
 }
 .boyandgirl {
     position: fixed;
-    height: 250px;
+    height: 25%;
     left: 30%;
     bottom: 200px;
     z-index: 4;
     transform: translateX(-50%);
-    animation: boyandgirl 2s linear infinite;
+    animation: boyandgirl 8s linear infinite;
 }
 @keyframes boyandgirl {
     100% {
-        transform: translateY(-10px);}
+        transform: translateY(-30px);}
     50% {
-        transform: translateY(10px);}      
+        transform: translateY(5px);}      
     0% {
-        transform: translateY(-10px);}
+        transform: translateY(-30px);}
 }
 .sea {
-    height: 240px; 
-    right: 0;
+    height:160px;
+    right:0;
     left: 0;
     bottom: 0;
     z-index: 1;
     position: fixed;
     background-repeat: repeat-x;
-    animation: sea 60s linear infinite;
+    animation: sea 100s linear infinite;
     display: block;
 }
 @keyframes sea {
     0% {
-        transform: translateX(-1600px);   
+        transform: translateX(-1600px);
 }
 }
