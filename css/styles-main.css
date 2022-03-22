@@ -28,6 +28,8 @@ h1 {
     position: fixed;
     min-width: 100%;
     min-height: 100%;
+    filter: opacity(50%);
+    z-index: 3;
 }
 .container {
     position: relative;   
@@ -37,7 +39,7 @@ h1 {
     right: 0;
     left: 0;
     bottom: 0;
-    z-index: 2;
+    z-index: 1;
     position: fixed;
     background-repeat: repeat-x;
     animation: mountains 60s linear infinite;
@@ -53,7 +55,7 @@ h1 {
     right: 0;
     left: 0;
     bottom: 0;
-    z-index: 3;
+    z-index: 2;
     position: fixed;
     background-repeat: repeat-x;
     animation: city 30s linear infinite;
@@ -69,7 +71,7 @@ h1 {
     height: 25%;
     left: 30%;
     bottom: 200px;
-    z-index: 4;
+    z-index: 3;
     transform: translateX(-50%);
     animation: boyandgirl 8s linear infinite;
 }
@@ -86,7 +88,6 @@ h1 {
     right:0;
     left: 0;
     bottom: 0;
-    z-index: 1;
     position: fixed;
     background-repeat: repeat-x;
     animation: sea 90s linear infinite;
