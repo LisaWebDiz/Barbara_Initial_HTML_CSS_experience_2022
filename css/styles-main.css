@@ -49,7 +49,7 @@ h1 {
 }
 }
 .city {
-    height: 180px;
+    height: 157px;
     right: 0;
     left: 0;
     bottom: 0;
@@ -61,7 +61,7 @@ h1 {
 }
 @keyframes city {
     0% {
-        transform: translateX(-2200px); 
+        transform: translateX(-1600px); 
 }
 }
 .boyandgirl {
@@ -82,7 +82,8 @@ h1 {
         transform: translateY(-10px);}
 }
 .sea {
-    height: 200px; 
+    height: 240px; 
+    right: 0;
     left: 0;
     bottom: 0;
     z-index: 1;
@@ -93,6 +94,6 @@ h1 {
 }
 @keyframes sea {
     0% {
-        transform: translateX(-1000px);   
+        transform: translateX(-1600px);   
 }
 }
