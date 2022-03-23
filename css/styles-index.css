@@ -93,7 +93,7 @@ h1 {
 .maintitle {
     top: 60px;
     color: rgba(212, 230, 229, 0.1);
-    background: url(Media/1.gif);
+    background: url(../Media/1.gif);
     -webkit-background-clip: text;   
     animation: maintitle 10s forwards;
 }
