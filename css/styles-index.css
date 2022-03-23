@@ -77,14 +77,6 @@ html, body {
     animation-delay: 2s;
 }
 .loaded_hiding .preloader {
-    transition: opacity;
-    opacity: 0;
-  }
-.loaded .preloader {
-    display: 3s none;
-}
-
-.loaded_hiding .preloader {
    transition: 0.3s opacity;
    opacity: 0;
 }
