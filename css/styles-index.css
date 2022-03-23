@@ -23,13 +23,7 @@ html, body {
     left: 0; 
     right: 0; 
     bottom: 0;
-    animation: preloader 7s forwards;
 }
-@keyframes preloader {
-    0%   {opacity: 1;}
-    50%  {opacity: 1;}
-    100% {opacity: 0}
-  }
 .preloader__content {
     position: relative;
     display: flex;
@@ -94,7 +88,7 @@ h1 {
     color: rgba(212, 230, 229, 0.1);
     background: url(1.gif);
     -webkit-background-clip: text;   
-    animation: maintitle 10s forwards;
+    animation: maintitle 15s forwards;
 }
 @keyframes maintitle {
   100%   {opacity: 1;}
