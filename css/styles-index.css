@@ -76,6 +76,13 @@ html, body {
 .preloader__item:nth-child(3) {
     animation-delay: 2s;
 }
+.loaded_hiding .preloader {
+    transition: opacity;
+    opacity: 0;
+  }
+.loaded .preloader {
+    display: 3s none;
+}
 h1 {  
     text-align: center;
     font-size: 50px;
