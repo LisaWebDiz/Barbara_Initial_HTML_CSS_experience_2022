@@ -7,9 +7,7 @@ body {
     background-color: mistyrose;
     background-image: url(main-picture.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    
-    
+    background-size: cover;  
 }
 h1 {
     color:palevioletred;
@@ -17,46 +15,11 @@ h1 {
     font-size: 50px;
     padding: 15px;
 }
-
 .maintitle {
-   
     color: rgba(212, 230, 229, 0.1);
     background: url(img/gallery/gifka5.gif);
     -webkit-background-clip: text;
-       
 }
-
-
-
-
-/*.wrapper {
-    padding: 0;
-    margin: 0;
-    min-height: 100vh;
-    width: 100%;
-    background-color: mistyrose;
-    background-image: url(Picture11.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}*/
-
-
-/*.background-all {
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-    width: 100%;
-    background-color: mistyrose;
-    background-image: url(Frame7.png);
-    background-repeat: no-repeat;
-    background-size: cover;*/
-    
-
-
-
-
-
 .menu {
     margin: 10px;
     content: 10px;
@@ -68,15 +31,11 @@ h1 {
     justify-content: center; 
     justify-content: space-between;
 }
-
-
 @media screen and (max-width: 1000px) {
     .menu {
         flex-direction: column;
     }
 }
-
-
 .menu__link {
     margin: 0px 15px;
     height: 50px;
@@ -87,22 +46,18 @@ h1 {
     vertical-align: middle;
     cursor: pointer;
 }
-
-
 .slider {
     width: 600px;
     height: 300px;
     overflow: hidden;
     border: 10px solid white;
 }
-
 .middle {
     position: absolute;
     top:85%;
     left:50%;
     transform: translate(-50%, -50%);
 }
-
 .navigation {
     display: flex;
     position: absolute;
@@ -110,7 +65,6 @@ h1 {
     left:50%;
     transform: translate(-50%);
 }
-
 .bar {
     width: 8px;
     height: 1px;
@@ -121,151 +75,20 @@ h1 {
     border-radius: 10px;
     transition: all .4s ease;
 }
-
 .bar:hover {
     opacity: 0.8px;
     transform:scale(1.1)
 }
-
 input[name="r"] {
     position: absolute;
     visibility: hidden;
 }
-
 .slides {
     width:400px;
     height: 100%;
     display: flex;
-    
+   
 }
-
 .slide {
     width: 25%
 }
-
-
-/*.menu {
-    menu__body {
-        max-width: 850px;
-        margin: 0px auto;
-        display: flex;
-
-    }
-    menu__column {
-        flex: 0 0 33%;
-    }
-
-}
-
-
-
-.link home {
-    menu__icon {
-        border-radius: 50%;
-        width: 90px;
-        height: 90px;
-        border: 2px solid;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    menu__title {}
-    menu__text {}
-}
-
-
-/*.wrapper {
-    min-height: 100vh;
-    width: 100%;
-    background-color: mistyrose;
-    background-image: url(Picture3.jpeg);
-    background-size: auto auto;
-    background-repeat: no-repeat;
-}*/
-
-
-
-/*body {
-    padding: 0;
-    margin: 0;
-    background-image: linear-gradient()
-}
-*/
-
-
-/*body{
-    padding: 15px;
-    margin: 0;
-    background-image: linear-gradient(lightpink, white,plum, lightpink, palegreen, aquamarine, aqua);
-    min-height: 100vh;*/
-    
-}
-
-/*.flex-container {
-    padding: 15px;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row-reverse;
-    border-radius: 25px;
-    border-color: violet;
-
-}
-
-.main-title {
-    flex: 1;
-}
-
-.wrapper {
-    background-color: white;
-}
-
-.image {
-    padding: 0;
-    
-    /*border-top-width: 20px;
-    border-right-width: 20px;
-    border-left-width: 20px;
-    border-bottom-width: 20px;
-    border-style: groove;
-    border-color:cadetblue;
-}
-
-*/
-
-/*.wrapper {
-   
-    background-image: url(Picture_header2.jpeg); 
-  
-    background-size: 100% 300px;
-    background-repeat: no-repeat;
-    
-}
-.item{
-    padding: 10px;
-    border: 1px solid white;
-}
-.container{
-    display: grid;
-    grid-template-areas:
-        'header header'
-        'sidebar content';
-        grid-gap: 10px;
-        grid-template-columns: 150px 1fr;
-}
-.header{
-    grid-area: header;
-    width: 100%;
-    height: 300px;
-}
-.sidebar{
-    grid-area: sidebar;
-    align-self: start;
-}
-.content{
-    grid-area: header;
-}
-img{
-    filter: blur(50px);
-}
-*/
-
