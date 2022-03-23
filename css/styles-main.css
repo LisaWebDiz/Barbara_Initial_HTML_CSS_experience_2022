@@ -34,7 +34,7 @@ html, body {
     position: absolute;
     border: 15px solid #e72fb9;
     border-radius: 50%;
-    animation: preloader__div 6s ease-in-out infinite;
+    animation: preloader__item 6s ease-in-out infinite;
   }
 @keyframes preloader__item {
     0% {
