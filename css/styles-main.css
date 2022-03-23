@@ -11,6 +11,74 @@ html, body {
     height: 100vh;
     font-family: 'Marck Script', cursive;
 }
+.preloader {
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3f85d4;
+    position: relative;
+    z-index: 1001;
+}
+.preloader__content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    transform-style: preserve-3d;
+    transform: perspective(500px) rotateY(45deg);
+}
+.preloader__item {
+    position: absolute;
+    border: 15px solid #e72fb9;
+    border-radius: 50%;
+    animation: preloader__div 6s ease-in-out infinite;
+  }
+@keyframes preloader__item {
+    0% {
+        transform: translateZ(-70px);
+        width: 80px;
+        height: 80px;
+    }
+    25% {
+        transform: translateZ(70px);
+        width: 40px;
+        height: 40px;
+    }
+    50% {
+        transform: translateZ(70px);
+        width: 40px;
+        height: 40px;
+    }
+    75% {
+        transform: translateZ(-70px);
+        width: 40px;
+        height: 40px;
+    }
+    100% {
+        transform: translateZ(-70px);
+        width: 80px;
+        height: 80px;
+    }
+}
+.preloader__item:nth-child(1) {
+    animation-delay: 0s;
+}
+.preloader__item:nth-child(2) {
+    animation-delay: 2s;
+}
+.preloader__item:nth-child(3) {
+    animation-delay: 4s;
+}
+.loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+}
+.loaded .preloader {
+    display: none;
+}
 h1 {  
     text-align: center;
     font-size: 50px;
