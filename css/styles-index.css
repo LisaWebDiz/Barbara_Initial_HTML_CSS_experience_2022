@@ -103,9 +103,9 @@ h1 {
   0% {opacity: 0;}
 }
 .player {
-    animation: maintitle 3s forwards;
+    animation: player 3s forwards;
 }
-@keyframes maintitle {
+@keyframes player {
     100% {opacity: 1;}
     90%  {opacity: 0;}
     0% {opacity: 0;}
