@@ -17,7 +17,7 @@ h1 {
 }
 .maintitle {
     color: rgba(212, 230, 229, 0.1);
-    background: url(img/gallery/gifka5.gif);
+    background: url(../Media/1.gif);
     -webkit-background-clip: text;
 }
 .menu {
