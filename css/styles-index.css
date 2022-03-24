@@ -163,7 +163,7 @@ audio {
     position: fixed;
     height: 25%;
     left: 30%;
-    bottom: 150px;
+    bottom: 25%;
     z-index: -2;
     transform: translateX(-50%);
     animation: boyandgirl 8s linear infinite;
