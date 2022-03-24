@@ -85,7 +85,7 @@ html, body {
 }
 h1 {  
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     padding: 10px;
     cursor: pointer;
     text-decoration: none;
@@ -111,8 +111,11 @@ h1 {
     0% {opacity: 0;}
   }
 .player__text {
-    font-size: 20px;
+    font-size: 30px;
     color:#2f3be7;
+}
+audio {
+    width: 200px;
 }
 .sky-video {
     position: fixed;
