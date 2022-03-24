@@ -5,7 +5,6 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Marck Script', cursive;
     padding: 0;
@@ -13,10 +12,7 @@ body {
     background-image: url(Frame13.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
-
-
 .preloader {
     font-size: 60px;
     color:deeppink;
@@ -35,45 +31,27 @@ body {
     animation-direction: alternate-reverse;
     animation-fill-mode: forwards;
   }
-
- @keyframes preloader {
-    
-    0% {
+@keyframes preloader {
+  0% {
         transform: translateY(-1600px);
         opacity: 50%;}
-
-   
-  }
-  
- 
+}
 .container {
     display: grid;
     grid-template-areas: 'sidebar header'
                          'sidebar content';
-
 }
-
-
 .header {
     grid-area: header;
-
-    
 }
-
 .sidebar {
     grid-area: sidebar;
     width: 400px;
-
 }
-
 .content {
     grid-area: content;
-
 }
-
-
 h1 {
-    
     text-align: right;
     font-size: 50px;
     padding: 10px;
@@ -81,19 +59,14 @@ h1 {
     text-decoration: none;
     z-index: -1;
 }
-
 .maintitle {
     top: 60px;
     color: rgba(212, 230, 229, 0.1);
-    background: url(img/gallery/gifka5.gif);
-
+    background: url(../Media/1.gif);
     -webkit-background-clip: text;
 }
-
-
 .menu {             
-    
-    /*content: 15px;*/
+/*content: 15px;*/
     font-family: 'Yanone Kaffeesatz', sans-serif;
     display: flex;
     flex-direction: row;
@@ -102,14 +75,11 @@ h1 {
     justify-content: center; 
     justify-content: space-around; 
 }
-
-
 @media screen and (max-width: 900px) {
     .menu {
         flex-direction: column;
     }
 }
-
 @media (max-width: 1000px) {
     .sidebar {
     display: none;
@@ -120,15 +90,11 @@ h1 {
         'content';
     }
 }
-
 @media screen and (min-width: 800px) {
     body {
         flex-direction: column;
     }
 }
-
-
-
 .menu__link {
     margin: 0px 15px;
     height: 50px;
@@ -137,23 +103,17 @@ h1 {
     text-decoration: none;
     align-self: center;
     vertical-align: middle;
-    
 }
-
 .gallery {
     display: grid;
     margin: 15px;
     grid-template-columns: repeat(auto-fit, minmax(150px, auto));
-    grid-gap: 15px;
-    
-}
-    
+    grid-gap: 15px;    
+}   
 img:hover {
     filter: opacity(80%);
     cursor: pointer;
 }
-    
-    
 .gallery__img {
     width: 100%;
     height: 100%;
@@ -161,17 +121,10 @@ img:hover {
     cursor: pointer;
     border-radius: 10px;
     min-width: 150px;
-}
-    
+}    
 .gallery__item {
-       
-        
-      
 }
-    
 .gallery__item--1 {
     grid-column: 1/3;
     grid-row: 1/2; 
-     
-}
-    
+}    
