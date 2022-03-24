@@ -1,8 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Marck Script', cursive;
     padding: 0;
     margin: 0;
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     background-color: mistyrose;
     background-image: url(../Media/Main/Main-picture.png);
