@@ -95,7 +95,7 @@ h1 {
     color: rgba(212, 230, 229, 0.1);
     background: url(../Media/1.gif);
     -webkit-background-clip: text;   
-    animation: maintitle 10s forwards;
+    animation: maintitle 8s forwards;
 }
 @keyframes maintitle {
   100%   {opacity: 1;}
