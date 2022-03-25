@@ -104,7 +104,7 @@ h1 {
 
 
 
-/*.gallery {
+.gallery {
     display: grid;
     margin: 15px;
     grid-template-columns: repeat(auto-fit, minmax(150px, auto));
@@ -122,4 +122,4 @@ img:hover {
     cursor: pointer;
     border-radius: 10px;
     min-width: 150px;
-}    */
+}    
