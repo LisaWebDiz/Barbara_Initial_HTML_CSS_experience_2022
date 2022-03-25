@@ -66,7 +66,7 @@ h1 {
     -webkit-background-clip: text;
 }
 .menu {             
-/*content: 15px;*/
+
     font-family: 'Yanone Kaffeesatz', sans-serif;
     display: flex;
     flex-direction: row;
@@ -82,18 +82,15 @@ h1 {
 }
 @media (max-width: 1000px) {
     .sidebar {
-    display: none;
-    }
-    container {
+    display: none;}
+    .container {
         grid-template-areas: 
         'header'
-        'content';
-    }
+        'content';}
 }
 @media screen and (min-width: 800px) {
     body {
-        flex-direction: column;
-    }
+        flex-direction: column;}
 }
 .menu__link {
     margin: 0px 15px;
@@ -112,6 +109,7 @@ h1 {
 }   
 img:hover {
     filter: opacity(80%);
+    border: 1px solid rgb(98, 60, 236); 
     cursor: pointer;
 }
 .gallery__img {
