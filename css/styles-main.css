@@ -24,6 +24,9 @@ h1 {
     background: url(../Media/1.gif);
     -webkit-background-clip: text;
 }
+.container {
+    display: flex;
+}
 .menu {
     margin: 10px;
     content: 10px;
