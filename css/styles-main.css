@@ -14,7 +14,8 @@ body {
     background-color: mistyrose;
     background-image: url(../Media/Main/Main-picture.png);
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover; 
+    overflow: hidden;
 }
 h1 {
     color:palevioletred;
@@ -54,50 +55,4 @@ h1 {
     align-self: center;
     vertical-align: middle;
     cursor: pointer;
-}
-.slider {
-    width: 600px;
-    height: 300px;
-    overflow: hidden;
-    border: 10px solid white;
-}
-.middle {
-    position: absolute;
-    top:85%;
-    left:50%;
-    transform: translate(-50%, -50%);
-}
-.navigation {
-    display: flex;
-    position: absolute;
-    bottom: 16px;
-    left:50%;
-    transform: translate(-50%);
-}
-.bar {
-    width: 8px;
-    height: 1px;
-    margin: 6px;
-    cursor: pointer;
-    background-color: darksalmon;
-    opacity: -5;
-    border-radius: 10px;
-    transition: all .4s ease;
-}
-.bar:hover {
-    opacity: 0.8px;
-    transform:scale(1.1)
-}
-input[name="r"] {
-    position: absolute;
-    visibility: hidden;
-}
-.slides {
-    width:400px;
-    height: 100%;
-    display: flex;
-   
-}
-.slide {
-    width: 25%
 }
