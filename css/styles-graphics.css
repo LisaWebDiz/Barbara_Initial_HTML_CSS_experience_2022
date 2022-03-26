@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+body {
+    /*margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    font-family: 'Marck Script', cursive;*/
+    background-image: url(../Media/1.png);
+    
+  
+    overflow: hidden;
+    font-family: 'Marck Script', cursive;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: auto;
+    background-color: mistyrose;
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+
+
+}
+/*.background {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    
+    z-index: -1;
+    background-image: url(../Media/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}*/
+
+.preloader {
+    font-size: 60px;
+    color:deeppink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #a3e4e9;
+    position: relative;
+    z-index: 1;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+    animation: preloader 5s linear;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+  }
+
+ @keyframes preloader {
+    
+    0% {
+        transform: translateY(-1600px);
+        opacity: 50%;}
+
+   
+  }
+  
+
+
+
+
+
+
+  h1 {
+    
+    text-align: right;
+    font-size: 50px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: -1;
+}
+
+.maintitle {
+    top: 60px;
+    color: rgba(212, 230, 229, 0.1);
+    background: url(../Media/1.gif);
+
+    -webkit-background-clip: text;
+}
+
+
+.menu {             
+    
+    /*content: 15px;*/
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 1fr;
+    font-size: 30px;
+    justify-content: center; 
+    justify-content: space-around; 
+}
+
+
+@media screen and (max-width: 900px) {
+    .menu {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1300px) {
+    .sidebar {
+    display: none;
+    }
+    .container {
+        grid-template-areas: 
+        'header'
+        'content';
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+}
+
+
+
+.menu__link {
+    margin: 0px 15px;
+    height: 50px;
+    min-width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    align-self: center;
+    vertical-align: middle;
+    
+} 
+
+
