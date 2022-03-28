@@ -121,5 +121,5 @@ img:hover {
     object-fit: cover;
     cursor: pointer;
     border-radius: 10px;
-    min-width: 150px;
+    min-width: 50px;
 }    
