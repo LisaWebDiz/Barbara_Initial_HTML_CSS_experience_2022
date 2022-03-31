@@ -107,7 +107,7 @@ h1 {
 .gallery {
     display: grid;
     margin: 15px;
-    grid-template-columns: repeat(auto-fit, minmax(120px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(110px, auto));
     grid-gap: 15px;    
 }   
 img:hover {
