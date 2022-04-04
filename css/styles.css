@@ -37,7 +37,7 @@ body {
         opacity: 50%;}
 }
 .container {
-    margin: 30px;
+    margin-right: 10px;
     display: grid;
     grid-template-areas: 'sidebar header'
                          'sidebar content';
