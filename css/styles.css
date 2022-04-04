@@ -297,7 +297,7 @@ img:hover {
 
 
 .gallery__item--10 {
-    grid-column: span 4; 
+    grid-column: span 3; 
     grid-row: span 1;
   
 }
