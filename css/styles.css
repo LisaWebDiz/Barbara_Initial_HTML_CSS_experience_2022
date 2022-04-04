@@ -113,8 +113,7 @@ h1 {
     grid-auto-flow: dense;  
 }   
 img:hover {
-    filter: opacity(80%);
-    border: 1px solid rgb(98, 60, 236); 
+    filter: brightness(85%);
     cursor: zoom-in;
 }
 .gallery__img {
