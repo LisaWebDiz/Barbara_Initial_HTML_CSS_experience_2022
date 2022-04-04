@@ -107,7 +107,7 @@ h1 {
 .gallery {
     display: grid;
     margin: 15px;
-    padding: 10px;
+
     grid-template-columns: repeat(auto-fit, minmax(110px, auto));
     grid-gap: 15px;  
     grid-auto-flow: dense;  
