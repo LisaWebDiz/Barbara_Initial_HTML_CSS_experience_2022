@@ -12,6 +12,7 @@ body {
     background-image: url(../Media/1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-right: 10px;
 }
 .preloader {
     font-size: 60px;
