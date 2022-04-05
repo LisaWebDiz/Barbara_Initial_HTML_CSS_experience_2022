@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*body {
+    font-family: 'Marck Script', cursive;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: auto;
+    
+    
+}*/
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    height: 100vh;
+}
+
+.main {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    bottom: 10px;
+    top: auto;
+   
+  
+
+    
+    z-index: 3;
+
+}
+
+.main img {
+  
+    width: 90%;
+    height: auto;
+    
+
+}
+
+.overlay {
+    width: 5%;
+    height: 100vh;
+    transition: 3s all linear;
+    position: relative;
+    z-index: 4;
+    background: url(../Media/Main/Main-picture.png) no-repeat;
+     background-attachment: fixed;
+  
+
+
+}
+
+
+.overlay:hover {
+    transition: 0s all linear;
+    opacity: 0;
+   
+
+}
+
+
+h1 {
+    color:palevioletred;
+    text-align: right;  
+    font-size: 50px;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.main__title {
+    color: rgba(212, 230, 229, 0.1);
+    background: url(../Media/1.gif);
+    -webkit-background-clip: text;
+}
+.main__menu {
+    margin: 10px;
+    content: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 1fr;
+    font-size: 30px;
+    justify-content: center; 
+    justify-content: space-between;
+}
+@media screen and (max-width: 900px) {
+    .menu {
+        flex-direction: column;
+    }
+}
+.main__menu__link {
+    margin: 0px 15px;
+    height: 50px;
+    min-width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    align-self: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
