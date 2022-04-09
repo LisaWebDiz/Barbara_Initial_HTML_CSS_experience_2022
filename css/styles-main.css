@@ -5,7 +5,139 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 body {
+    font-family: 'Marck Script', cursive;
+    padding: 0;
+    margin: 0;
+   
+    background-color: mistyrose;
+    
+    
+    
+}
+
+.box {
+
+height: 100%;
+
+}
+
+
+
+.box__item {
+/*height: 90vh;*/
+height: 100%;
+width: 100%;
+
+  
+
+}
+
+
+
+.box__item--1 {
+  position: fixed;
+z-index: 5;
+background-image: url(../Media/Main/Main-picture.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100%;
+    width: 100%;
+ 
+    
+}
+
+.box__item--2 {
+    position: absolute;
+    z-index: 10;
+    margin-top: 90vh;
+   
+    left: 12%;
+    right: 8%;
+ 
+
+  
+  
+      
+  }
+
+
+h1 {
+    color:palevioletred;
+    text-align: right;  
+    font-size: 50px;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+   
+}
+.maintitle {
+    color: rgba(212, 230, 229, 0.1);
+    background: url(../Media/1.gif);
+    -webkit-background-clip: text;
+}
+.menu {
+    margin: 10px;
+    content: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: flex;
+    flex-direction: row;
+
+    font-size: 30px;
+    justify-content: center; 
+    justify-content: space-between;
+}
+@media screen and (max-width: 900px) {
+    .menu {
+        flex-direction: column;
+    }
+}
+.menu__link {
+    margin: 0px 15px;
+    height: 50px;
+    min-width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    align-self: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    border: 10px solid chocolate;
+    justify-content: center; 
+    justify-content: space-between;
+    
+   
+    background-color: beige;
+  
+  
+
+    
+
+}
+
+.container__item {
+    border: 1px solid black;
+    width: 280px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
+    
+    align-self: center;
+ 
+
+
+
+}
+
+
+/*body {
     font-family: 'Marck Script', cursive;
     padding: 0;
     margin: 0;
@@ -55,4 +187,4 @@ h1 {
     align-self: center;
     vertical-align: middle;
     cursor: pointer;
-}
+}*/
