@@ -51,7 +51,7 @@ background-image: url(../Media/Main/Main-picture.png);
 .box__item--2 {
     position: absolute;
     z-index: 10;
-    margin-top: 90vh;
+    margin-top: 95vh;
    
     left: 12%;
     right: 8%;
