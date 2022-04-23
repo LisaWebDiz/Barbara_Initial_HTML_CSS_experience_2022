@@ -234,9 +234,19 @@ img:hover {
     background: linear-gradient(45deg,rgb(149, 201, 165), rgb(63, 235, 178), rgb(5, 165, 112));
 }
 
+@keyframes myanimation {
+    from {
+        opacity: 0;}
+    90% {
+        opacity: 0%;}
+    to {
+        visibility: visible;}
+}
+
 .gallery__item--1 {
     grid-column: span 2; 
-    grid-row: span 1; 
+    grid-row: span 1;
+    animation: myanimation 2s;
 }
 
 
@@ -250,6 +260,7 @@ img:hover {
 .gallery__item--2 {
     grid-column: span 2; 
     grid-row: span 1; 
+    animation: myanimation 3s;
 
 }
 
@@ -264,6 +275,7 @@ img:hover {
 .gallery__item--3 {
     grid-column: span 3; 
     grid-row: span 1;
+    animation: myanimation 4s;
   
     
 }
@@ -277,6 +289,7 @@ img:hover {
 .gallery__item--4 {
     grid-column: span 2; 
     grid-row: span 1;
+    animation: myanimation 5s;
 }
 
 
@@ -302,6 +315,7 @@ img:hover {
 .gallery__item--7 {
     grid-column: span 1; 
     grid-row: span 1;
+    animation: myanimation 6s;
   
 }
 
@@ -311,6 +325,7 @@ img:hover {
 .gallery__item--8 {
     grid-column: span 2; 
     grid-row: span 2;
+    animation: myanimation 7s;
   
 }
 
