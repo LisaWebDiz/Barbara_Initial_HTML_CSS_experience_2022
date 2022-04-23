@@ -105,7 +105,7 @@ h1 {
 .overlay {
     width: 5%;
     height: auto;
-    transition: 7s all linear;
+    transition: 10s all linear;
     position: relative;
     z-index: 15;
     background-image: url(../Media/Main/Wave.png);
