@@ -207,9 +207,33 @@ img:hover {
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
   }
+.figcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.page-back {
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+}
+.name {
+    text-align: center;
+}
+.page-forward {
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    text-align: right;
+}
 
+::-webkit-scrollbar {
+    width: 15px;
+    background:rgb(157, 187, 241);
+}
 
-  
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background: linear-gradient(45deg,rgb(149, 201, 165), rgb(63, 235, 178), rgb(5, 165, 112));
+}
+
 .gallery__item--1 {
     grid-column: span 2; 
     grid-row: span 1; 
