@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA=Compatible" content="ie=edge">
-<link rel="stylesheet" type="text/css" href="../css/styles-stories.css">
+<title>Barbara's web-site</title>
+<link rel="stylesheet" type="text/css" href="../css/styles-sketching.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
@@ -22,9 +23,7 @@
 <h1>
   <a href="../index.html" class="maintitle">Это Варечкин сайт!</a>
 </h1>
-
 <nav class="menu">
-
     <a href="Main.html" class="menu__link">Главная</a>
     <a href="Stories.html" class="menu__link">Истории</a>
     <a href="Fantasies.html" class="menu__link">Фантазии</a>
@@ -33,42 +32,48 @@
     <a href="Landscapes.html" class="menu__link">Пейзажи</a>
     <a href="Graphics.html" class="menu__link">Графика</a>
     <a href="New.html" class="menu__link">!Новинки!</a>
-    
-    
-    
-    
-    </nav>
-
+</nav>
 </div> 
-
 <div class="sidebar"></div>
 <div class="content">
 
 <div class="gallery">
-
   <item class="gallery__item gallery__item--1">
         <a href="#1"> 
             <img class="gallery__img" src="../Media/Sketching/Sketching_prev/Sketch1_prev.jpg" title="Название"  alt="Image"></a>
     </item>  
-                <a href="#x" class="overlay" id="1"></a>
-                    <div class="popup">
+                <div id="1" class="overlay">
+                    <div class="overlay__body">
                         <figure> <img src="../Media/Sketching/Sketch1.jpg" alt="Image"> 
-                            <figcaption>Название</figcaption>
+                            <figcaption>
+                              <div class="figcontainer">
+                                <div class="page-back"><a href="#">&lt;Назад</a></div>
+                                <div class="name">Название</div>
+                                <div class="page-forward"><a href="#2">Вперёд&gt;</a></div>
+                              </div>
+                            </figcaption>
                         </figure>
-                        <a class="close" title="Закрыть" href="#close"></a>
+                        <a href="#-1" class="overlay__close"></a>
                     </div>
+                 </div>
   <item class="gallery__item gallery__item--2">
         <a href="#2"> 
             <img class="gallery__img" src="../Media/Sketching/Sketching_prev/Sketch2_prev.jpg" title="Название"  alt="Image"></a>
     </item>  
-                <a href="#x" class="overlay" id="2"></a>
-                    <div class="popup">
+                <div id="2" class="overlay">
+                    <div class="overlay__body">
                         <figure> <img src="../Media/Sketching/Sketch2.jpg" alt="Image"> 
-                            <figcaption>Название</figcaption>
+                            <figcaption>
+                            <div class="figcontainer">
+                              <div class="page-back"><a href="#1">&lt;Назад</a></div>
+                              <div class="name">Название</div>
+                              <div class="page-forward"><a href="#3">Вперёд&gt;</a></div>
+                            </div>
+                          </figcaption>
                         </figure>
-                        <a class="close" title="Закрыть" href="#close"></a>
+                        <a href="#-2" class="overlay__close"></a>
                     </div>
-  
+               </div> 
   
 </div>  
 </div>
