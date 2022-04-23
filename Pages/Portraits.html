@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA=Compatible" content="ie=edge">
 <title>Barbara's web-site</title>
-<link rel="stylesheet" type="text/css" href="../css/styles-stories.css">
+<link rel="stylesheet" type="text/css" href="../css/styles-portraits.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
@@ -38,41 +38,60 @@
 <div class="content">
 
 <div class="gallery">
-
   <item class="gallery__item gallery__item--1">
     <a href="#1"> 
         <img class="gallery__img" src="../Media/Portraits/Portraits_prev/Port1prev.jpg" title="Название"  alt="Image"></a>
 </item>  
-            <a href="#x" class="overlay" id="1"></a>
-                <div class="popup">
+            <div id="1" class="overlay">
+                    <div class="overlay__body">
                     <figure> <img src="../Media/Portraits/Port1.jpg" alt="Image"> 
-                        <figcaption>Название</figcaption>
+                        <figcaption>
+                              <div class="figcontainer">
+                                <div class="page-back"><a href="#">&lt;Назад</a></div>
+                                <div class="name">Название</div>
+                                <div class="page-forward"><a href="#2">Вперёд&gt;</a></div>
+                              </div>
+                            </figcaption>
                     </figure>
-                    <a class="close" title="Закрыть" href="#close"></a>
+                    <a href="#-1" class="overlay__close"></a>
                 </div>
+              </div>
   <item class="gallery__item gallery__item--2">
     <a href="#2"> 
         <img class="gallery__img" src="../Media/Portraits/Portraits_prev/Port2prev.jpg" title="Название"  alt="Image"></a>
 </item>  
-            <a href="#x" class="overlay" id="2"></a>
-                <div class="popup">
+            <div id="2" class="overlay">
+                    <div class="overlay__body">
                     <figure> <img src="../Media/Portraits/Port2.jpg" alt="Image"> 
-                        <figcaption>Название</figcaption>
+                        <figcaption>
+                            <div class="figcontainer">
+                              <div class="page-back"><a href="#1">&lt;Назад</a></div>
+                              <div class="name">Название</div>
+                              <div class="page-forward"><a href="#3">Вперёд&gt;</a></div>
+                            </div>
+                          </figcaption>
                     </figure>
-                    <a class="close" title="Закрыть" href="#close"></a>
+                    <a href="#-2" class="overlay__close"></a>
                 </div>
+              </div>
   <item class="gallery__item gallery__item--3">
     <a href="#3"> 
         <img class="gallery__img" src="../Media/Portraits/Portraits_prev/Port3prev.jpg" title="Название"  alt="Image"></a>
 </item>  
-            <a href="#x" class="overlay" id="3"></a>
-                <div class="popup">
+            <div id="3" class="overlay">
+                    <div class="overlay__body">
                     <figure> <img src="../Media/Portraits/Port3.jpg" alt="Image"> 
-                        <figcaption>Название</figcaption>
+                        <figcaption>
+                            <div class="figcontainer">
+                              <div class="page-back"><a href="#2">&lt;Назад</a></div>
+                              <div class="name">Название</div>
+                              <div class="page-forward"><a href="#4">Вперёд&gt;</a></div>
+                            </div>
+                          </figcaption>
                     </figure>
-                    <a class="close" title="Закрыть" href="#close"></a>
+                    <a href="#-3" class="overlay__close"></a>
                 </div>
-  
+            </div>
 </div>  
 </div>
   
