@@ -127,19 +127,19 @@ h1 {
 
 @media screen and (min-height: 300px) {
     .box__item--2 {
-        height: 600vh;
+        height: 800vh;
     }
 }
 
 @media screen and (min-height: 370px) {
     .box__item--2 {
-        height: 300vh;
+        height: 600vh;
     }
 }
 
 @media screen and (min-height: 400px) {
     .box__item--2 {
-        height: 240vh;
+        height: 340vh;
     }
 }
 
