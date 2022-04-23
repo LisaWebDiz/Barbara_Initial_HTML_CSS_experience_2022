@@ -190,3 +190,13 @@ h1 {
         height: 140vh;
     }
 }
+
+::-webkit-scrollbar {
+    width: 15px;
+    background:rgb(157, 187, 241);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background: linear-gradient(45deg,rgb(149, 201, 165), rgb(63, 235, 178), rgb(5, 165, 112));
+}
