@@ -139,7 +139,7 @@ h1 {
 
 @media screen and (min-height: 400px) {
     .box__item--2 {
-        height: 340vh;
+        height: 280vh;
     }
 }
 
