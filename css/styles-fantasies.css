@@ -265,7 +265,7 @@ img:hover {
     animation: myanimation 5s;
 }
 .gallery__item--6 {
-    grid-column: span 3; 
+    grid-column: span 2; 
     grid-row: span 1;
     animation: myanimation 6s;
 }
