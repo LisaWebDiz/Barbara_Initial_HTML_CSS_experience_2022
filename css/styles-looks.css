@@ -275,3 +275,22 @@ img:hover {
     grid-row: span 2;
     animation: myanimation 8s;
 }
+.gallery__item--9 {
+    animation: myanimation 9s;
+}
+.gallery__item--10 {
+    animation: myanimation 10s;
+}
+.gallery__item--11 {
+    animation: myanimation 11s;
+}
+.gallery__item--12 {
+    grid-column: span 2; 
+    grid-row: span 2;
+    animation: myanimation 3s;
+}
+.gallery__item--13 {
+    grid-column: span 1; 
+    grid-row: span 2;
+    animation: myanimation 4s;
+}
