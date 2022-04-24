@@ -209,7 +209,7 @@ img:hover {
   }
 .figcontainer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
 }
 .page-back {
     font-family:'Yanone Kaffeesatz', sans-serif;
