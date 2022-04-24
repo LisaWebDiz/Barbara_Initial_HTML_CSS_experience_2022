@@ -95,7 +95,7 @@ body {
     color: rgba(212, 230, 229, 0.1);
     background: url(../Media/1.gif);
 
-    -webkit-background-clip: content-box;
+    -webkit-background-clip: text;
 }
 
 
